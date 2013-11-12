@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GPComptes.Dal;
+using GPComptes.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

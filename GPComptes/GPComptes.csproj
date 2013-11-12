@@ -89,12 +89,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Dal\AppContext.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Categorie.cs" />
+    <Compile Include="Model\Compte.cs" />
+    <Compile Include="Model\EntiteBase.cs" />
+    <Compile Include="Model\Operation.cs" />
+    <Compile Include="Model\Tiers.cs" />
+    <Compile Include="Model\TypeOperation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
