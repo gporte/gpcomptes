@@ -24,13 +24,6 @@ namespace GPComptes
 	{
 		public MainWindow() {
 			InitializeComponent();
-
-			using (var ct = new AppContext()) {
-				ct.Types.Add(new TypeOperation() { Libelle = "test" });
-				ct.SaveChanges();
-			}
-
-			var toto = "test";
 		}
 	}
 }
